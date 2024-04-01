@@ -1,0 +1,20 @@
+{
+    "name": "malikarslanasif131/my-date-time-lib",
+    "description": "A simple PHP library to get the current date and time.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arslan Malik",
+            "email": "malikarslanasif131@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "8.2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArslanMalik\\": "src/"
+        }
+    }
+}
